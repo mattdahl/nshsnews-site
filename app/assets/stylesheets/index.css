@@ -4,7 +4,8 @@
 }
 
 body {
-	background-color: #bcbcbc;
+	/*background-color: #bcbcbc; */
+	background-image: -webkit-radial-gradient(center bottom, circle farthest-corner, #FFFFFF 0%, #969696 100%);
 }
 
 h1 {
@@ -15,6 +16,8 @@ h1 {
 	text-align: center;
 	margin-top: 1%;
 	margin-bottom: 10px;
+
+	clear: both;
 }
 
 h2 {
@@ -43,6 +46,29 @@ a, a:visited {
   text-decoration: none;
 }
 
+nav > ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+nav > ul > li {
+	display: block;
+	float: left;
+
+	font-family: Tahoma;
+	margin: 10px;
+}
+
+nav > ul > li > a {
+	color: black;
+}
+
+nav > ul > li > a:hover {
+	color: orange;
+}
+
 .screenshot {
 	display: block;
 	margin-left: auto;
@@ -58,7 +84,7 @@ a, a:visited {
 }
 
 .arrow:hover {
-	cursor: arrow;
+	cursor: pointer !important;
 }
 
 .sequence-prev {
@@ -69,3 +95,28 @@ a, a:visited {
 .sequence-next {
 	position: relative;
 	right: 8%;
+}
+
+.divider {
+	width: 85%;
+	height: 2px;
+	border: 0;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: -webkit-linear-gradient(left, rgba(100,100,100,0), rgba(130,130,130,0.75), rgba(100,100,100,0));
+}
+
+#featuring_text {
+	width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#featuring_text > * {
+	float: left;
+}
+
+.newspaper_thumbnail {
+	position: relative;
+	top: -10px;
+}
