@@ -1,12 +1,48 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<link rel="stylesheet" type="text/css" href="../assets/stylesheets/index.css" />
+	<link rel="stylesheet" media="screen" href="../assets/stylesheets/sequencejs-theme.apple-style.css" />
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="../assets/javascripts/jquery.sequence-min.js"></script>
+	<script src="../assets/javascripts/sequencejs-options.apple-style.js"></script>
 <head>
 </head>
 <body>
 	<h1>NSHS News</h1>
-	<h2>Your news. Now at your fingertips.</h2>
-	<img class="screenshot" src="../assets/images/1.png"></img>
+	<h2>Newton South. Now at your fingertips.</h2>
+	<img class="arrow sequence-prev" src="../assets/images/left_arrow.png" />
+	<div id="sequence-theme">
+		<div id="sequence">
+			<ul class="sequence-canvas">
+				<li class="animate-in">
+					<div class="intro">
+						<h2>Top news, at a glance.</h2>
+						<p>Browse the ten latest stories with a single swipe.</p>
+					</div>
+					<img class="iphone" src="../assets/images/1.png" alt="screenshot_1" />
+					<img class="iphone-shadow" src="../assets/images/iphone-shadow.png" />
+				</li>
+				<li>
+					<img class="ipad" src="../assets/images/2.png" alt="screenshot_2" />
+					<div class="slide2">
+						<h2>Filter by section.</h2>
+						<p>Jump straight to what you really want to read.</p>
+					</div>
+					<img class="iphone-shadow" src="../assets/images/iphone-shadow.png" />
+				</li>
+				<li>
+					<div class="slide3">
+						<h2>Teacher absences are here.</h2>
+						<p>View the daily absent teacher list right on your phone.</p>
+					</div>
+					<img class="iphone2" src="../assets/images/3.png" alt="screenshot_3" />
+					<img class="iphone2-shadow" src="../assets/images/iphone-shadow.png" />
+				</li>
+			</ul>
+		</div>
+	</div>
+	<img class="arrow sequence-next" src="../assets/images/right_arrow.png" />
 
 	<footer>
 		Matt Dahl 2013 | <a href="http://www.thelionsroar.com">The Lion's Roar</a> | <a href="http://www.nshsdenebola.com">NSHS Denebola</a>
