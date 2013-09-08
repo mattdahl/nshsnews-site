@@ -46,6 +46,11 @@ a, a:visited {
   text-decoration: none;
 }
 
+nav {
+	position: fixed;
+	left: 82%;
+}
+
 nav > ul {
 	list-style-type: none;
 	margin: 0;
@@ -58,7 +63,7 @@ nav > ul > li {
 	float: left;
 
 	font-family: Tahoma;
-	margin: 10px;
+	margin: 12px;
 }
 
 nav > ul > li > a {
@@ -67,6 +72,10 @@ nav > ul > li > a {
 
 nav > ul > li > a:hover {
 	color: orange;
+}
+
+.nav_images {
+	float: right;
 }
 
 .screenshot {
