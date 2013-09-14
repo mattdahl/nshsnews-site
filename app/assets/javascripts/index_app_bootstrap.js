@@ -10,17 +10,17 @@ NN.Index.config(['$routeProvider', function ($routeProvider) {
 	$routeProvider
 		.when('/home',
 		{
-			templateUrl: 'partials/home.html',
+			templateUrl: 'views/partials/home.html',
 			controller: 'HomeController'
 		})
 		.when('/about',
 		{
-			templateUrl: 'partials/about.html',
+			templateUrl: 'views/partials/about.html',
 			controller: null
 		})
 		.when('/contact',
 		{
-			templateUrl: 'partials/contact.html',
+			templateUrl: 'views/partials/contact.html',
 			controller: null
 		})
 		.otherwise({redirectTo: '/home'});
