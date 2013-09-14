@@ -428,7 +428,7 @@ table {
   -o-transition-duration: 1s;
   transition-duration: 1s;
 }
-#sequence .iphone {
+#sequence .screenshot_1 {
   left: -450px;
   opacity: 1;
   position: absolute;
@@ -444,8 +444,8 @@ table {
   -o-transition-duration: 1.5s;
   transition-duration: 1.5s;
 }
-#sequence .animate-in .iphone {
-  left: 600px;
+#sequence .animate-in .screenshot_1 {
+  left: 100px;
   opacity: 1;
   top: 20px;
   -webkit-transform: rotate(0deg);
@@ -459,7 +459,7 @@ table {
   -o-transition-duration: 1.5s;
   transition-duration: 1.5s;
 }
-#sequence .animate-out .iphone {
+#sequence .animate-out .screenshot_1  {
   left: 1100px;
   opacity: 0;
   top: -370px;
@@ -474,10 +474,10 @@ table {
   -o-transition-duration: 1s;
   transition-duration: 1s;
 }
-#sequence .iphone-shadow {
-  left: 598px;
+#sequence .screenshot_1_shadow {
+  left: 85px;
+  top: 480px;
   opacity: 0;
-  top: 490px;
   position: absolute;
   -webkit-transition-duration: 1.5s;
   -moz-transition-duration: 1.5s;
@@ -485,8 +485,9 @@ table {
   -o-transition-duration: 1.5s;
   transition-duration: 1.5s;
 }
-#sequence .animate-in .iphone-shadow {
-  left: 598px;
+#sequence .animate-in .screenshot_1_shadow {
+  left: 85px;
+  top: 480px;
   opacity: 1;
   -webkit-transition-duration: 1.5s;
   -moz-transition-duration: 1.5s;
@@ -494,16 +495,17 @@ table {
   -o-transition-duration: 1.5s;
   transition-duration: 1.5s;
 }
-#sequence .animate-out .iphone-shadow {
-  left: 598px;
+#sequence .animate-out .screenshot_1_shadow {
+  left: 85px;
+  top: 480px;
   opacity: 0;
-  -webkit-transition-duration: 2s;
-  -moz-transition-duration: 2s;
-  -ms-transition-duration: 2s;
-  -o-transition-duration: 2s;
-  transition-duration: 2s;
+  -webkit-transition-duration: 1.5s;
+  -moz-transition-duration: 1.5s;
+  -ms-transition-duration: 1.5s;
+  -o-transition-duration: 1.5s;
+  transition-duration: 1.5s;
 }
-#sequence .intro {
+#sequence .screenshot_1_text {
   position: absolute;
   left: -450px;
   top: -370px;
@@ -519,8 +521,8 @@ table {
   -o-transition-duration: 1.5s;
   transition-duration: 1.5s;
 }
-#sequence .animate-in .intro {
-  left: 100px;
+#sequence .animate-in .screenshot_1_text {
+  left: 400px;
   top: 220px;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
@@ -533,7 +535,7 @@ table {
   -o-transition-duration: 1.5s;
   transition-duration: 1.5s;
 }
-#sequence .animate-out .intro {
+#sequence .animate-out .screenshot_1_text {
   left: 100px;
   opacity: 0;
   top: 220px;
@@ -548,76 +550,7 @@ table {
   -o-transition-duration: 1s;
   transition-duration: 1s;
 }
-#sequence .ipad {
-  left: -450px;
-  position: absolute;
-  top: 770px;
-  -webkit-transform: rotate(-20deg);
-  -moz-transform: rotate(-20deg);
-  -ms-transform: rotate(-20deg);
-  -o-transform: rotate(-20deg);
-  transform: rotate(-20deg);
-  z-index: 5;
-}
-#sequence .animate-in .ipad {
-  left: 50px;
-  top: 20px;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition-duration: 1s;
-  -moz-transition-duration: 1s;
-  -ms-transition-duration: 1s;
-  -o-transition-duration: 1s;
-  transition-duration: 1s;
-}
-#sequence .animate-out .ipad {
-  left: -800px;
-  opacity: 0;
-  top: 20px;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition-duration: 1s;
-  -moz-transition-duration: 1s;
-  -ms-transition-duration: 1s;
-  -o-transition-duration: 1s;
-  transition-duration: 1s;
-}
-#sequence .ipad-shadow {
-  left: 30px;
-  top: 478px;
-  opacity: 0;
-  position: absolute;
-  -webkit-transition-duration: 0.5s;
-  -moz-transition-duration: 0.5s;
-  -ms-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-}
-#sequence .animate-in .ipad-shadow {
-  left: 30px;
-  opacity: 1;
-  -webkit-transition-duration: 1s;
-  -moz-transition-duration: 1s;
-  -ms-transition-duration: 1s;
-  -o-transition-duration: 1s;
-  transition-duration: 1s;
-}
-#sequence .animate-out .ipad-shadow {
-  left: -800px;
-  opacity: 0;
-  -webkit-transition-duration: 1s;
-  -moz-transition-duration: 1s;
-  -ms-transition-duration: 1s;
-  -o-transition-duration: 1s;
-  transition-duration: 1s;
-}
-#sequence .slide2 {
+#sequence .screenshot_2_text {
   left: 950px;
   position: absolute;
   top: 670px;
@@ -628,8 +561,8 @@ table {
   -o-transform: rotate(20deg);
   transform: rotate(20deg);
 }
-#sequence .animate-in .slide2 {
-  left: 450px;
+#sequence .animate-in .screenshot_2_text {
+  left: 100px;
   top: 220px;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
@@ -642,7 +575,7 @@ table {
   -o-transition-duration: 1s;
   transition-duration: 1s;
 }
-#sequence .animate-out .slide2 {
+#sequence .animate-out .screenshot_2_text {
   left: 800px;
   opacity: 0;
   top: 220px;
@@ -657,53 +590,54 @@ table {
   -o-transition-duration: 1s;
   transition-duration: 1s;
 }
-#sequence .iphone2 {
-  left: 400px;
+#sequence .screenshot_2 {
+  left: 550px;
   position: absolute;
   top: -570px;
   z-index: 3;
 }
-#sequence .animate-in .iphone2 {
-  left: 400px;
+#sequence .animate-in .screenshot_2 {
+  left: 550px;
   top: 30px;
-  -webkit-transition-duration: 2.5s;
-  -moz-transition-duration: 2.5s;
-  -ms-transition-duration: 2.5s;
-  -o-transition-duration: 2.5s;
-  transition-duration: 2.5s;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
   -webkit-transition-timing-function: ease-in;
   -moz-transition-timing-function: ease-in;
   -ms-transition-timing-function: ease-in;
   -o-transition-timing-function: ease-in;
   transition-timing-function: ease-in;
 }
-#sequence .animate-out .iphone2 {
-  left: 600px;
+#sequence .animate-out .screenshot_2 {
+  left: 550px;
   top: 770px;
   -webkit-transform: rotate(100deg);
   -moz-transform: rotate(100deg);
   -ms-transform: rotate(100deg);
   -o-transform: rotate(100deg);
   transform: rotate(100deg);
-  -webkit-transition-duration: 2.5s;
-  -moz-transition-duration: 2.5s;
-  -ms-transition-duration: 2.5s;
-  -o-transition-duration: 2.5s;
-  transition-duration: 2.5s;
-}
-#sequence .iphone2-shadow {
-  position: absolute;
-  left: 398px;
-  opacity: 0;
-  top: 500px;
   -webkit-transition-duration: 1s;
   -moz-transition-duration: 1s;
   -ms-transition-duration: 1s;
   -o-transition-duration: 1s;
   transition-duration: 1s;
 }
-#sequence .animate-in .iphone2-shadow {
-  left: 398px;
+#sequence .screenshot_2_shadow {
+  position: absolute;
+  left: 535px;
+  top: 485px;
+  opacity: 0;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+#sequence .animate-in .screenshot_2_shadow {
+  left: 535px;
+  top: 485px;
   opacity: 1;
   -webkit-transition-duration: 1s;
   -moz-transition-duration: 1s;
@@ -716,7 +650,7 @@ table {
   -o-transition-delay: 1s;
   transition-delay: 1s;
 }
-#sequence .animate-out .iphone2-shadow {
+#sequence .animate-out .screenshot_2_shadow {
   left: 398px;
   opacity: 0;
   -webkit-transition-duration: 1s;
@@ -725,7 +659,7 @@ table {
   -o-transition-duration: 1s;
   transition-duration: 1s;
 }
-#sequence .iphone3-shadow {
+#sequence .screenshot_3_shadow {
   position: absolute;
   left: 500px;
   opacity: 0;
@@ -741,7 +675,7 @@ table {
   -o-transition-duration: 1s;
   transition-duration: 1s;
 }
-#sequence .animate-in .iphone3-shadow {
+#sequence .animate-in .screenshot_3_shadow {
   left: 500px;
   opacity: 1;
   -webkit-transition-duration: 1s;
@@ -755,8 +689,8 @@ table {
   -o-transition-delay: 0.5s;
   transition-delay: 0.5s;
 }
-#sequence .animate-out .iphone3-shadow {
-  left: 500px;
+#sequence .animate-out .screenshot_3_shadow {
+  left: 535px;
   opacity: 0;
   -webkit-transform: scale(0.9);
   -moz-transform: scale(0.9);
@@ -769,69 +703,32 @@ table {
   -o-transition-duration: 1s;
   transition-duration: 1s;
 }
-#sequence .iphone4-shadow {
-  position: absolute;
-  left: 575px;
-  opacity: 0;
-  top: 455px;
-  -webkit-transform: scale(0.8);
-  -moz-transform: scale(0.8);
-  -ms-transform: scale(0.8);
-  -o-transform: scale(0.8);
-  transform: scale(0.8);
-  -webkit-transition-duration: 1s;
-  -moz-transition-duration: 1s;
-  -ms-transition-duration: 1s;
-  -o-transition-duration: 1s;
-  transition-duration: 1s;
-}
-#sequence .animate-in .iphone4-shadow {
-  opacity: 1;
-  -webkit-transition-duration: 1s;
-  -moz-transition-duration: 1s;
-  -ms-transition-duration: 1s;
-  -o-transition-duration: 1s;
-  transition-duration: 1s;
-}
-#sequence .animate-out .iphone4-shadow {
-  opacity: 0;
-  -webkit-transform: scale(0.8);
-  -moz-transform: scale(0.8);
-  -ms-transform: scale(0.8);
-  -o-transform: scale(0.8);
-  transform: scale(0.8);
-  -webkit-transition-duration: 1s;
-  -moz-transition-duration: 1s;
-  -ms-transition-duration: 1s;
-  -o-transition-duration: 1s;
-  transition-duration: 1s;
-}
-#sequence .iphone3 {
-  left: 500px;
-  top: -570px;
+#sequence .screenshot_3 {
+  left: -200px;
+  top: 1000px;
   position: absolute;
   z-index: 2;
-  -webkit-transform: scale(0.9);
-  -moz-transform: scale(0.9);
-  -ms-transform: scale(0.9);
-  -o-transform: scale(0.9);
-  transform: scale(0.9);
+  -webkit-transform: rotate(100deg);
+  -moz-transform: rotate(100deg);
+  -ms-transform: rotate(100deg);
+  -o-transform: rotate(100deg);
+  transform: rotate(100deg);
 }
-#sequence .animate-in .iphone3 {
-  left: 500px;
+#sequence .animate-in .screenshot_3 {
+  left: 550px;
   top: 30px;
-  -webkit-transition-duration: 2s;
-  -moz-transition-duration: 2s;
-  -ms-transition-duration: 2s;
-  -o-transition-duration: 2s;
-  transition-duration: 2s;
-  -webkit-transition-timing-function: ease-in;
-  -moz-transition-timing-function: ease-in;
-  -ms-transition-timing-function: ease-in;
-  -o-transition-timing-function: ease-in;
-  transition-timing-function: ease-in;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition-duration: 1.5s;
+  -moz-transition-duration: 1.5s;
+  -ms-transition-duration: 1.5s;
+  -o-transition-duration: 1.5s;
+  transition-duration: 1.5s;
 }
-#sequence .animate-out .iphone3 {
+#sequence .animate-out .screenshot_3 {
   left: 700px;
   top: 770px;
   -webkit-transform: rotate(100deg);
@@ -845,54 +742,15 @@ table {
   -o-transition-duration: 2s;
   transition-duration: 2s;
 }
-#sequence .iphone4 {
-  left: 575px;
-  top: -570px;
-  position: absolute;
-  z-index: 1;
-  -webkit-transform: scale(0.8);
-  -moz-transform: scale(0.8);
-  -ms-transform: scale(0.8);
-  -o-transform: scale(0.8);
-  transform: scale(0.8);
-}
-#sequence .animate-in .iphone4 {
-  left: 575px;
-  top: 30px;
-  -webkit-transition-duration: 1.5s;
-  -moz-transition-duration: 1.5s;
-  -ms-transition-duration: 1.5s;
-  -o-transition-duration: 1.5s;
-  transition-duration: 1.5s;
-  -webkit-transition-timing-function: ease-in;
-  -moz-transition-timing-function: ease-in;
-  -ms-transition-timing-function: ease-in;
-  -o-transition-timing-function: ease-in;
-  transition-timing-function: ease-in;
-}
-#sequence .animate-out .iphone4 {
-  left: 800px;
-  top: 770px;
-  -webkit-transform: rotate(100deg);
-  -moz-transform: rotate(100deg);
-  -ms-transform: rotate(100deg);
-  -o-transform: rotate(100deg);
-  transform: rotate(100deg);
-  -webkit-transition-duration: 1.5s;
-  -moz-transition-duration: 1.5s;
-  -ms-transition-duration: 1.5s;
-  -o-transition-duration: 1.5s;
-  transition-duration: 1.5s;
-}
-#sequence .slide3 {
+#sequence .screenshot_3_text {
   position: absolute;
   left: -800px;
   opacity: 0;
   top: 220px;
-  width: 250px;
+  width: 450px;
 }
-#sequence .animate-in .slide3 {
-  left: 100px;
+#sequence .animate-in .screenshot_3_text {
+  left: 50px;
   opacity: 1;
   -webkit-transition-delay: 1s;
   -moz-transition-delay: 1s;
@@ -905,8 +763,239 @@ table {
   -o-transition-duration: 1s;
   transition-duration: 1s;
 }
-#sequence .animate-out .slide3 {
+#sequence .animate-out .screenshot_3_text {
   left: 900px;
+  opacity: 0;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+#sequence .screenshot_4 {
+  left: -450px;
+  opacity: 1;
+  position: absolute;
+  top: -520px;
+  -webkit-transform: rotate(-40deg);
+  -moz-transform: rotate(-40deg);
+  -ms-transform: rotate(-40deg);
+  -o-transform: rotate(-40deg);
+  transform: rotate(-40deg);
+  -webkit-transition-duration: 1.5s;
+  -moz-transition-duration: 1.5s;
+  -ms-transition-duration: 1.5s;
+  -o-transition-duration: 1.5s;
+  transition-duration: 1.5s;
+}
+#sequence .animate-in .screenshot_4 {
+  left: 100px;
+  opacity: 1;
+  top: 20px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition-duration: 1.5s;
+  -moz-transition-duration: 1.5s;
+  -ms-transition-duration: 1.5s;
+  -o-transition-duration: 1.5s;
+  transition-duration: 1.5s;
+}
+#sequence .animate-out .screenshot_4  {
+  left: 1100px;
+  opacity: 0;
+  top: -370px;
+  -webkit-transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  -o-transform: rotate(20deg);
+  transform: rotate(20deg);
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+#sequence .screenshot_4_shadow {
+  left: 85px;
+  top: 480px;
+  opacity: 0;
+  position: absolute;
+  -webkit-transition-duration: 1.5s;
+  -moz-transition-duration: 1.5s;
+  -ms-transition-duration: 1.5s;
+  -o-transition-duration: 1.5s;
+  transition-duration: 1.5s;
+}
+#sequence .animate-in .screenshot_4_shadow {
+  left: 85px;
+  top: 480px;
+  opacity: 1;
+  -webkit-transition-duration: 1.5s;
+  -moz-transition-duration: 1.5s;
+  -ms-transition-duration: 1.5s;
+  -o-transition-duration: 1.5s;
+  transition-duration: 1.5s;
+}
+#sequence .animate-out .screenshot_4_shadow {
+  left: 85px;
+  top: 480px;
+  opacity: 0;
+  -webkit-transition-duration: 1.5s;
+  -moz-transition-duration: 1.5s;
+  -ms-transition-duration: 1.5s;
+  -o-transition-duration: 1.5s;
+  transition-duration: 1.5s;
+}
+#sequence .screenshot_4_text {
+  position: absolute;
+  left: -450px;
+  top: -370px;
+  width: 400px;
+  -webkit-transform: rotate(-40deg);
+  -moz-transform: rotate(-40deg);
+  -ms-transform: rotate(-40deg);
+  -o-transform: rotate(-40deg);
+  transform: rotate(-40deg);
+  -webkit-transition-duration: 1.5s;
+  -moz-transition-duration: 1.5s;
+  -ms-transition-duration: 1.5s;
+  -o-transition-duration: 1.5s;
+  transition-duration: 1.5s;
+}
+#sequence .animate-in .screenshot_4_text {
+  left: 400px;
+  top: 220px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition-duration: 1.5s;
+  -moz-transition-duration: 1.5s;
+  -ms-transition-duration: 1.5s;
+  -o-transition-duration: 1.5s;
+  transition-duration: 1.5s;
+}
+#sequence .animate-out .screenshot_4_text {
+  left: 100px;
+  opacity: 0;
+  top: 220px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+#sequence .screenshot_5_text {
+  left: 950px;
+  position: absolute;
+  top: 670px;
+  width: 340px;
+  -webkit-transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  -o-transform: rotate(20deg);
+  transform: rotate(20deg);
+}
+#sequence .animate-in .screenshot_5_text {
+  left: 100px;
+  top: 220px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+#sequence .animate-out .screenshot_5_text {
+  left: 800px;
+  opacity: 0;
+  top: 220px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+#sequence .screenshot_5 {
+  left: 550px;
+  position: absolute;
+  top: -570px;
+  z-index: 3;
+}
+#sequence .animate-in .screenshot_5 {
+  left: 550px;
+  top: 30px;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-timing-function: ease-in;
+  -moz-transition-timing-function: ease-in;
+  -ms-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+#sequence .animate-out .screenshot_5 {
+  left: 550px;
+  top: 770px;
+  -webkit-transform: rotate(100deg);
+  -moz-transform: rotate(100deg);
+  -ms-transform: rotate(100deg);
+  -o-transform: rotate(100deg);
+  transform: rotate(100deg);
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+#sequence .screenshot_5_shadow {
+  position: absolute;
+  left: 535px;
+  top: 485px;
+  opacity: 0;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+#sequence .animate-in .screenshot_5_shadow {
+  left: 535px;
+  top: 485px;
+  opacity: 1;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-delay: 1s;
+  -moz-transition-delay: 1s;
+  -ms-transition-delay: 1s;
+  -o-transition-delay: 1s;
+  transition-delay: 1s;
+}
+#sequence .animate-out .screenshot_5_shadow {
+  left: 398px;
   opacity: 0;
   -webkit-transition-duration: 1s;
   -moz-transition-duration: 1s;

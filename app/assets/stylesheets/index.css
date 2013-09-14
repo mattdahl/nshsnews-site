@@ -99,10 +99,9 @@ nav > ul > li > a:hover {
 	top: 200px;
 
 	opacity: .7;
-}
 
-.arrow:hover {
 	cursor: pointer !important;
+	z-index: 10;
 }
 
 .sequence-prev {
