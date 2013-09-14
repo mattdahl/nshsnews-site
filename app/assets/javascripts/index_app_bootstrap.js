@@ -16,12 +16,12 @@ NN.Index.config(['$routeProvider', function ($routeProvider) {
 		.when('/about',
 		{
 			templateUrl: 'partials/about.html',
-			controller: 'AboutController'
+			controller: null
 		})
 		.when('/contact',
 		{
 			templateUrl: 'partials/contact.html',
-			controller: 'ContactController'
+			controller: null
 		})
 		.otherwise({redirectTo: '/home'});
 }]);

@@ -1,3 +1,9 @@
+/* =======================
+nshs-news.com
+Matt Dahl 2013
+======================= */
+
+/* ------------ General -------------- */
 @font-face {
     font-family: 'charcoal_cy';
     src: url('../fonts/charcoalcy.ttf');
@@ -60,6 +66,23 @@ a:hover {
 	color: orange;
 }
 
+#container {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.divider {
+	width: 85%;
+	height: 2px;
+	border: 0;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: -webkit-linear-gradient(left, rgba(100,100,100,0), rgba(130,130,130,0.75), rgba(100,100,100,0));
+}
+
+/* --------------- Navbar ----------- */
+
 nav {
 	position: fixed;
 	left: 82%;
@@ -83,6 +106,8 @@ nav > ul > li {
 .nav_images {
 	float: right;
 }
+
+/* ----------- Sequence Slider ---------- */
 
 .screenshot {
 	display: block;
@@ -111,14 +136,7 @@ nav > ul > li {
 	right: 8%;
 }
 
-.divider {
-	width: 85%;
-	height: 2px;
-	border: 0;
-	margin-left: auto;
-	margin-right: auto;
-	background-image: -webkit-linear-gradient(left, rgba(100,100,100,0), rgba(130,130,130,0.75), rgba(100,100,100,0));
-}
+/* ---------- Featuring Text ---------- */
 
 #featuring_text {
 	width: 550px;
@@ -133,10 +151,4 @@ nav > ul > li {
 .newspaper_thumbnail {
 	position: relative;
 	top: -10px;
-}
-
-#container {
-	width: 70%;
-	margin-left: auto;
-	margin-right: auto;
 }

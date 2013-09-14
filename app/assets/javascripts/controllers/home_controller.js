@@ -1,7 +1,7 @@
 /**
  * The controller for the home page
  */
-NN.Index.Controllers.controller('HomeController', ['$scope', function ($scope) {
+NN.Index.Controllers.controller('HomeController', ['$scope', '$rootScope', function ($scope, $rootScope) {
 	// Sets up the slider
 	var options = {
 	    autoPlay: false,
