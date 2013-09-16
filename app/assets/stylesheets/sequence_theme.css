@@ -692,29 +692,19 @@ table {
   transition-duration: 1s;
 }
 #sequence .screenshot_3 {
-  left: -200px;
-  top: 1000px;
+  left: 1500px;
+  top: 30px;
   position: absolute;
   z-index: 2;
-  -webkit-transform: rotate(100deg);
-  -moz-transform: rotate(100deg);
-  -ms-transform: rotate(100deg);
-  -o-transform: rotate(100deg);
-  transform: rotate(100deg);
 }
 #sequence .animate-in .screenshot_3 {
   left: 550px;
   top: 30px;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition-duration: 1.5s;
-  -moz-transition-duration: 1.5s;
-  -ms-transition-duration: 1.5s;
-  -o-transition-duration: 1.5s;
-  transition-duration: 1.5s;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
 }
 #sequence .animate-out .screenshot_3 {
   left: 700px;
@@ -740,11 +730,6 @@ table {
 #sequence .animate-in .screenshot_3_text {
   left: 50px;
   opacity: 1;
-  -webkit-transition-delay: 1s;
-  -moz-transition-delay: 1s;
-  -ms-transition-delay: 1s;
-  -o-transition-delay: 1s;
-  transition-delay: 1s;
   -webkit-transition-duration: 1s;
   -moz-transition-duration: 1s;
   -ms-transition-duration: 1s;
