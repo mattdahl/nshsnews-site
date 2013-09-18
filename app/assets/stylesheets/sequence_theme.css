@@ -632,11 +632,6 @@ table {
   -ms-transition-duration: 1s;
   -o-transition-duration: 1s;
   transition-duration: 1s;
-  -webkit-transition-delay: 1s;
-  -moz-transition-delay: 1s;
-  -ms-transition-delay: 1s;
-  -o-transition-delay: 1s;
-  transition-delay: 1s;
 }
 #sequence .animate-out .screenshot_2_shadow {
   left: 398px;
@@ -961,11 +956,6 @@ table {
   -ms-transition-duration: 1s;
   -o-transition-duration: 1s;
   transition-duration: 1s;
-  -webkit-transition-delay: 1s;
-  -moz-transition-delay: 1s;
-  -ms-transition-delay: 1s;
-  -o-transition-delay: 1s;
-  transition-delay: 1s;
 }
 #sequence .animate-out .screenshot_5_shadow {
   left: 398px;
