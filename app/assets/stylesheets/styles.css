@@ -138,11 +138,29 @@ nav > ul > li {
 	float: left;
 	position: relative;
 	top: 200px;
+	width: 100px;
+	height: 100px;
 
 	opacity: .7;
 
 	cursor: pointer !important;
 	z-index: 10;
+}
+
+#left_arrow {
+	background-image: url('../images/left_arrow.png');
+}
+
+#left_arrow:hover {
+	background-image: url('../images/left_arrow_orange.png');
+}
+
+#right_arrow {
+	background-image: url('../images/right_arrow.png');
+}
+
+#right_arrow:hover {
+	background-image: url('../images/right_arrow_orange.png');
 }
 
 .sequence-prev {
